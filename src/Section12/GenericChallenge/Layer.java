@@ -9,7 +9,8 @@ public class Layer<T extends Mappable> {
         this.layerElements = new ArrayList<T>(List.of(layerElements));
     }
 
-    public void addElements(T... elements){
+    @SafeVarargs
+    final public void addElements(T... elements){
         layerElements.addAll(List.of(elements));
     }
 

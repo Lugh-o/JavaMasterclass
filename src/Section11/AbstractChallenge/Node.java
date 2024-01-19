@@ -29,7 +29,6 @@ public class Node extends ListItem{
 
     @Override
     protected int compareTo() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'compareTo'");
     }
 
